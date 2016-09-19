@@ -1,8 +1,8 @@
 #!/usr/bin/env python -W ignore::DeprecationWarning
 
 import sys, getopt
-from summarizer import summarize
-from keywords import keywords
+from .summarizer import summarize
+from .keywords import keywords
 
 # Types of summarization
 SENTENCE = 0

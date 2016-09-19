@@ -13,8 +13,8 @@ except ImportError:
     logger.info("'pattern' package not found; tag filters are not available for English")
     HAS_PATTERN = False
 
-from snowball import SnowballStemmer
-from stopwords import get_stopwords_by_language
+from .snowball import SnowballStemmer
+from .stopwords import get_stopwords_by_language
 import re  # http://regex101.com/#python to test regex
 from summa.syntactic_unit import SyntacticUnit
 
