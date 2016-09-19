@@ -18,7 +18,7 @@ developed by Martin Porter.
 There is also a demo function: `snowball.demo()`.
 
 """
-from __future__ import unicode_literals, print_function
+
 
 from .porter import PorterStemmer
 
